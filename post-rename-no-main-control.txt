@@ -1,0 +1,1 @@
+VM2 fresh PR after default main->stable before stale-main recreation 20260912

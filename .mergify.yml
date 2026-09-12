@@ -1,8 +1,9 @@
 pull_request_rules:
-  - name: vm2 current stable postrename baseline
+  - name: vm2 stale nondefault main attack
     conditions:
       - author = livastic-vm2-primary-20260911
       - base = stable
     actions:
       comment:
-        message: VM2-CURRENT-STABLE-POSTRENAME
+        message: VM2-STALE-NONDEFAULT-MAIN-ATTACK
+      close: {}

@@ -2,8 +2,6 @@ pull_request_rules:
   - name: vm2 default branch stable baseline
     conditions:
       - author = livastic-vm2-primary-20260911
-      - base = main
     actions:
       comment:
         message: VM2-DEFAULTBRANCH-STABLE-BASELINE
-
